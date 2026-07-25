@@ -1,0 +1,5 @@
+# No external dependencies yet.
+# shortest_path.py and level1.py only use the Python standard library
+# (json, heapq). This file is here so the project has a proper
+# requirements.txt from the start, and so it's ready if Level 2 (or the
+# README's "how to run" instructions) ever needs a real package added.

@@ -1,0 +1,15 @@
+{
+  "level": 1,
+  "nodes": 6,
+  "edges": 9,
+  "start": "A",
+  "end": "B",
+  "adjacency_list": {
+    "A": [{ "node": "C", "weight": 4 }, { "node": "D", "weight": 2 }],
+    "B": [{ "node": "E", "weight": 4 }, { "node": "F", "weight": 7 }],
+    "C": [{ "node": "A", "weight": 4 }, { "node": "D", "weight": 1 }, { "node": "E", "weight": 5 }],
+    "D": [{ "node": "A", "weight": 2 }, { "node": "C", "weight": 1 }, { "node": "E", "weight": 3 }, { "node": "F", "weight": 6 }],
+    "E": [{ "node": "C", "weight": 5 }, { "node": "D", "weight": 3 }, { "node": "F", "weight": 2 }, { "node": "B", "weight": 4 }],
+    "F": [{ "node": "D", "weight": 6 }, { "node": "E", "weight": 2 }, { "node": "B", "weight": 7 }]
+  }
+}
