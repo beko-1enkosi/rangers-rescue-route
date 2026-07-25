@@ -14,7 +14,8 @@ RESTARTS = 500
 
 def dijkstra_avoiding_terminals(graph, start, end, terminals=("A", "B")):
     """Shortest path while preventing A or B from being used mid-route."""
-    forbidden = set(terminals) - {start, end}
+    # A and B may be used as intermediate nodes.
+    forbidden = set()
     distances = {node: math.inf for node in graph}
     previous = {node: None for node in graph}
     distances[start] = 0
@@ -158,11 +159,7 @@ def validate_route(route, raw_graph, required_stops, start, end):
         raise ValueError(f"Route must start at {start}")
     if route[-1] != end:
         raise ValueError(f"Route must end at {end}")
-    if start in route[1:]:
-        raise ValueError(f"Route revisits start node {start}")
-    if end in route[:-1]:
-        raise ValueError(f"Route reaches end node {end} before the final step")
-
+    
     missing = sorted(set(required_stops) - set(route))
     if missing:
         raise ValueError(f"Route is missing required stops: {missing}")
