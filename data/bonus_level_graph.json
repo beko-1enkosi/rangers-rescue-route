@@ -1,0 +1,3107 @@
+{
+  "level": 3,
+  "bonus_level": true,
+  "scoring": "inverse_route_cost",
+  "nodes": 100,
+  "edges": 287,
+  "start": "A",
+  "end": "B",
+  "required_stops": [
+    "S01",
+    "S02",
+    "S03",
+    "S04",
+    "S05",
+    "S06",
+    "S07",
+    "S08",
+    "S09",
+    "S10",
+    "S11",
+    "S12",
+    "S13",
+    "S14",
+    "S15",
+    "S16",
+    "S17",
+    "S18",
+    "S19",
+    "S20",
+    "S21",
+    "S22",
+    "S23",
+    "S24"
+  ],
+  "adjacency_list": {
+    "A": [
+      {
+        "node": "N01",
+        "time": 17,
+        "risk": 2
+      },
+      {
+        "node": "N13",
+        "time": 7,
+        "risk": 2
+      },
+      {
+        "node": "N43",
+        "time": 8,
+        "risk": 0
+      },
+      {
+        "node": "N49",
+        "time": 11,
+        "risk": 3
+      },
+      {
+        "node": "N73",
+        "time": 7,
+        "risk": 1
+      },
+      {
+        "node": "S14",
+        "time": 8,
+        "risk": 3
+      }
+    ],
+    "B": [
+      {
+        "node": "N06",
+        "time": 15,
+        "risk": 3
+      },
+      {
+        "node": "N24",
+        "time": 9,
+        "risk": 4
+      },
+      {
+        "node": "N36",
+        "time": 17,
+        "risk": 3
+      },
+      {
+        "node": "N66",
+        "time": 9,
+        "risk": 2
+      },
+      {
+        "node": "S11",
+        "time": 9,
+        "risk": 2
+      },
+      {
+        "node": "S20",
+        "time": 7,
+        "risk": 4
+      },
+      {
+        "node": "S21",
+        "time": 13,
+        "risk": 4
+      }
+    ],
+    "N01": [
+      {
+        "node": "A",
+        "time": 17,
+        "risk": 2
+      },
+      {
+        "node": "N02",
+        "time": 33,
+        "risk": 3
+      },
+      {
+        "node": "N03",
+        "time": 60,
+        "risk": 1
+      },
+      {
+        "node": "N04",
+        "time": 71,
+        "risk": 2
+      },
+      {
+        "node": "N07",
+        "time": 19,
+        "risk": 1
+      },
+      {
+        "node": "N49",
+        "time": 12,
+        "risk": 3
+      },
+      {
+        "node": "N55",
+        "time": 10,
+        "risk": 0
+      },
+      {
+        "node": "S18",
+        "time": 7,
+        "risk": 0
+      }
+    ],
+    "N02": [
+      {
+        "node": "N01",
+        "time": 33,
+        "risk": 3
+      },
+      {
+        "node": "N03",
+        "time": 29,
+        "risk": 4
+      },
+      {
+        "node": "N04",
+        "time": 60,
+        "risk": 2
+      },
+      {
+        "node": "N05",
+        "time": 57,
+        "risk": 0
+      },
+      {
+        "node": "N14",
+        "time": 21,
+        "risk": 2
+      },
+      {
+        "node": "N32",
+        "time": 3,
+        "risk": 1
+      },
+      {
+        "node": "N68",
+        "time": 21,
+        "risk": 4
+      },
+      {
+        "node": "S08",
+        "time": 17,
+        "risk": 2
+      }
+    ],
+    "N03": [
+      {
+        "node": "N01",
+        "time": 60,
+        "risk": 1
+      },
+      {
+        "node": "N02",
+        "time": 29,
+        "risk": 4
+      },
+      {
+        "node": "N04",
+        "time": 50,
+        "risk": 4
+      },
+      {
+        "node": "N05",
+        "time": 30,
+        "risk": 0
+      },
+      {
+        "node": "N06",
+        "time": 68,
+        "risk": 0
+      },
+      {
+        "node": "N21",
+        "time": 13,
+        "risk": 4
+      },
+      {
+        "node": "N33",
+        "time": 14,
+        "risk": 3
+      },
+      {
+        "node": "N51",
+        "time": 15,
+        "risk": 0
+      },
+      {
+        "node": "N57",
+        "time": 14,
+        "risk": 0
+      },
+      {
+        "node": "N69",
+        "time": 5,
+        "risk": 2
+      }
+    ],
+    "N04": [
+      {
+        "node": "N01",
+        "time": 71,
+        "risk": 2
+      },
+      {
+        "node": "N02",
+        "time": 60,
+        "risk": 2
+      },
+      {
+        "node": "N03",
+        "time": 50,
+        "risk": 4
+      },
+      {
+        "node": "N05",
+        "time": 40,
+        "risk": 4
+      },
+      {
+        "node": "N06",
+        "time": 63,
+        "risk": 3
+      },
+      {
+        "node": "N10",
+        "time": 3,
+        "risk": 2
+      },
+      {
+        "node": "N22",
+        "time": 11,
+        "risk": 2
+      },
+      {
+        "node": "N28",
+        "time": 11,
+        "risk": 3
+      },
+      {
+        "node": "N64",
+        "time": 5,
+        "risk": 1
+      },
+      {
+        "node": "S01",
+        "time": 4,
+        "risk": 3
+      },
+      {
+        "node": "S04",
+        "time": 5,
+        "risk": 3
+      },
+      {
+        "node": "S24",
+        "time": 12,
+        "risk": 1
+      }
+    ],
+    "N05": [
+      {
+        "node": "N02",
+        "time": 57,
+        "risk": 0
+      },
+      {
+        "node": "N03",
+        "time": 30,
+        "risk": 0
+      },
+      {
+        "node": "N04",
+        "time": 40,
+        "risk": 4
+      },
+      {
+        "node": "N06",
+        "time": 38,
+        "risk": 3
+      },
+      {
+        "node": "N11",
+        "time": 17,
+        "risk": 1
+      },
+      {
+        "node": "N41",
+        "time": 14,
+        "risk": 0
+      },
+      {
+        "node": "N53",
+        "time": 8,
+        "risk": 4
+      },
+      {
+        "node": "N65",
+        "time": 13,
+        "risk": 0
+      },
+      {
+        "node": "N71",
+        "time": 11,
+        "risk": 1
+      },
+      {
+        "node": "S02",
+        "time": 11,
+        "risk": 1
+      }
+    ],
+    "N06": [
+      {
+        "node": "B",
+        "time": 15,
+        "risk": 3
+      },
+      {
+        "node": "N03",
+        "time": 68,
+        "risk": 0
+      },
+      {
+        "node": "N04",
+        "time": 63,
+        "risk": 3
+      },
+      {
+        "node": "N05",
+        "time": 38,
+        "risk": 3
+      },
+      {
+        "node": "N36",
+        "time": 4,
+        "risk": 2
+      },
+      {
+        "node": "N42",
+        "time": 15,
+        "risk": 4
+      },
+      {
+        "node": "S12",
+        "time": 4,
+        "risk": 4
+      },
+      {
+        "node": "S21",
+        "time": 3,
+        "risk": 4
+      }
+    ],
+    "N07": [
+      {
+        "node": "N01",
+        "time": 19,
+        "risk": 1
+      },
+      {
+        "node": "N37",
+        "time": 4,
+        "risk": 1
+      },
+      {
+        "node": "N73",
+        "time": 16,
+        "risk": 1
+      },
+      {
+        "node": "S18",
+        "time": 16,
+        "risk": 1
+      }
+    ],
+    "N08": [
+      {
+        "node": "N14",
+        "time": 7,
+        "risk": 2
+      },
+      {
+        "node": "N38",
+        "time": 12,
+        "risk": 0
+      },
+      {
+        "node": "N44",
+        "time": 7,
+        "risk": 2
+      },
+      {
+        "node": "N68",
+        "time": 5,
+        "risk": 2
+      },
+      {
+        "node": "N74",
+        "time": 12,
+        "risk": 3
+      },
+      {
+        "node": "S07",
+        "time": 4,
+        "risk": 2
+      }
+    ],
+    "N09": [
+      {
+        "node": "N15",
+        "time": 13,
+        "risk": 4
+      },
+      {
+        "node": "N33",
+        "time": 5,
+        "risk": 1
+      },
+      {
+        "node": "N51",
+        "time": 17,
+        "risk": 0
+      },
+      {
+        "node": "N63",
+        "time": 8,
+        "risk": 4
+      },
+      {
+        "node": "S16",
+        "time": 10,
+        "risk": 1
+      }
+    ],
+    "N10": [
+      {
+        "node": "N04",
+        "time": 3,
+        "risk": 2
+      },
+      {
+        "node": "N22",
+        "time": 11,
+        "risk": 2
+      },
+      {
+        "node": "N64",
+        "time": 8,
+        "risk": 2
+      },
+      {
+        "node": "S01",
+        "time": 7,
+        "risk": 1
+      },
+      {
+        "node": "S04",
+        "time": 6,
+        "risk": 4
+      },
+      {
+        "node": "S15",
+        "time": 20,
+        "risk": 4
+      }
+    ],
+    "N11": [
+      {
+        "node": "N05",
+        "time": 17,
+        "risk": 1
+      },
+      {
+        "node": "N41",
+        "time": 4,
+        "risk": 3
+      },
+      {
+        "node": "N53",
+        "time": 13,
+        "risk": 2
+      },
+      {
+        "node": "S02",
+        "time": 13,
+        "risk": 2
+      },
+      {
+        "node": "S10",
+        "time": 4,
+        "risk": 2
+      }
+    ],
+    "N12": [
+      {
+        "node": "N30",
+        "time": 9,
+        "risk": 1
+      },
+      {
+        "node": "N48",
+        "time": 21,
+        "risk": 4
+      },
+      {
+        "node": "N54",
+        "time": 18,
+        "risk": 2
+      },
+      {
+        "node": "N72",
+        "time": 2,
+        "risk": 2
+      }
+    ],
+    "N13": [
+      {
+        "node": "A",
+        "time": 7,
+        "risk": 2
+      },
+      {
+        "node": "N19",
+        "time": 7,
+        "risk": 3
+      },
+      {
+        "node": "N25",
+        "time": 9,
+        "risk": 2
+      },
+      {
+        "node": "N31",
+        "time": 12,
+        "risk": 1
+      },
+      {
+        "node": "N49",
+        "time": 8,
+        "risk": 3
+      },
+      {
+        "node": "N55",
+        "time": 11,
+        "risk": 2
+      },
+      {
+        "node": "S22",
+        "time": 8,
+        "risk": 4
+      }
+    ],
+    "N14": [
+      {
+        "node": "N02",
+        "time": 21,
+        "risk": 2
+      },
+      {
+        "node": "N08",
+        "time": 7,
+        "risk": 2
+      },
+      {
+        "node": "N32",
+        "time": 18,
+        "risk": 2
+      },
+      {
+        "node": "N68",
+        "time": 4,
+        "risk": 0
+      },
+      {
+        "node": "S07",
+        "time": 3,
+        "risk": 2
+      },
+      {
+        "node": "S08",
+        "time": 3,
+        "risk": 0
+      },
+      {
+        "node": "S13",
+        "time": 4,
+        "risk": 3
+      }
+    ],
+    "N15": [
+      {
+        "node": "N09",
+        "time": 13,
+        "risk": 4
+      },
+      {
+        "node": "N39",
+        "time": 6,
+        "risk": 2
+      },
+      {
+        "node": "N63",
+        "time": 8,
+        "risk": 3
+      },
+      {
+        "node": "S15",
+        "time": 17,
+        "risk": 3
+      },
+      {
+        "node": "S16",
+        "time": 12,
+        "risk": 4
+      }
+    ],
+    "N16": [
+      {
+        "node": "N34",
+        "time": 10,
+        "risk": 1
+      },
+      {
+        "node": "N40",
+        "time": 4,
+        "risk": 3
+      },
+      {
+        "node": "N70",
+        "time": 6,
+        "risk": 2
+      },
+      {
+        "node": "S03",
+        "time": 15,
+        "risk": 1
+      }
+    ],
+    "N17": [
+      {
+        "node": "S05",
+        "time": 15,
+        "risk": 4
+      },
+      {
+        "node": "S09",
+        "time": 10,
+        "risk": 0
+      },
+      {
+        "node": "S12",
+        "time": 8,
+        "risk": 3
+      },
+      {
+        "node": "S23",
+        "time": 13,
+        "risk": 2
+      }
+    ],
+    "N18": [
+      {
+        "node": "N24",
+        "time": 5,
+        "risk": 2
+      },
+      {
+        "node": "N48",
+        "time": 8,
+        "risk": 3
+      },
+      {
+        "node": "N54",
+        "time": 11,
+        "risk": 4
+      },
+      {
+        "node": "N60",
+        "time": 11,
+        "risk": 4
+      },
+      {
+        "node": "S11",
+        "time": 2,
+        "risk": 3
+      },
+      {
+        "node": "S20",
+        "time": 6,
+        "risk": 3
+      }
+    ],
+    "N19": [
+      {
+        "node": "N13",
+        "time": 7,
+        "risk": 3
+      },
+      {
+        "node": "N25",
+        "time": 4,
+        "risk": 0
+      },
+      {
+        "node": "N31",
+        "time": 9,
+        "risk": 1
+      },
+      {
+        "node": "S14",
+        "time": 9,
+        "risk": 0
+      },
+      {
+        "node": "S22",
+        "time": 2,
+        "risk": 3
+      }
+    ],
+    "N20": [
+      {
+        "node": "N26",
+        "time": 3,
+        "risk": 3
+      },
+      {
+        "node": "N44",
+        "time": 7,
+        "risk": 0
+      },
+      {
+        "node": "N50",
+        "time": 2,
+        "risk": 3
+      },
+      {
+        "node": "N56",
+        "time": 3,
+        "risk": 0
+      },
+      {
+        "node": "N62",
+        "time": 13,
+        "risk": 3
+      },
+      {
+        "node": "S17",
+        "time": 5,
+        "risk": 1
+      }
+    ],
+    "N21": [
+      {
+        "node": "N03",
+        "time": 13,
+        "risk": 4
+      },
+      {
+        "node": "N51",
+        "time": 24,
+        "risk": 3
+      },
+      {
+        "node": "N57",
+        "time": 20,
+        "risk": 3
+      },
+      {
+        "node": "N69",
+        "time": 16,
+        "risk": 1
+      }
+    ],
+    "N22": [
+      {
+        "node": "N04",
+        "time": 11,
+        "risk": 2
+      },
+      {
+        "node": "N10",
+        "time": 11,
+        "risk": 2
+      },
+      {
+        "node": "N64",
+        "time": 12,
+        "risk": 2
+      },
+      {
+        "node": "S04",
+        "time": 6,
+        "risk": 0
+      }
+    ],
+    "N23": [
+      {
+        "node": "N29",
+        "time": 5,
+        "risk": 3
+      },
+      {
+        "node": "N35",
+        "time": 9,
+        "risk": 3
+      },
+      {
+        "node": "N59",
+        "time": 8,
+        "risk": 1
+      },
+      {
+        "node": "S02",
+        "time": 12,
+        "risk": 1
+      },
+      {
+        "node": "S06",
+        "time": 8,
+        "risk": 4
+      },
+      {
+        "node": "S19",
+        "time": 2,
+        "risk": 2
+      }
+    ],
+    "N24": [
+      {
+        "node": "B",
+        "time": 9,
+        "risk": 4
+      },
+      {
+        "node": "N18",
+        "time": 5,
+        "risk": 2
+      },
+      {
+        "node": "N66",
+        "time": 12,
+        "risk": 3
+      },
+      {
+        "node": "S11",
+        "time": 5,
+        "risk": 2
+      },
+      {
+        "node": "S20",
+        "time": 3,
+        "risk": 4
+      }
+    ],
+    "N25": [
+      {
+        "node": "N13",
+        "time": 9,
+        "risk": 2
+      },
+      {
+        "node": "N19",
+        "time": 4,
+        "risk": 0
+      },
+      {
+        "node": "N31",
+        "time": 6,
+        "risk": 1
+      },
+      {
+        "node": "S22",
+        "time": 3,
+        "risk": 0
+      }
+    ],
+    "N26": [
+      {
+        "node": "N20",
+        "time": 3,
+        "risk": 3
+      },
+      {
+        "node": "N50",
+        "time": 4,
+        "risk": 3
+      },
+      {
+        "node": "N56",
+        "time": 2,
+        "risk": 1
+      },
+      {
+        "node": "S17",
+        "time": 3,
+        "risk": 1
+      }
+    ],
+    "N27": [
+      {
+        "node": "N33",
+        "time": 10,
+        "risk": 4
+      },
+      {
+        "node": "N39",
+        "time": 9,
+        "risk": 2
+      },
+      {
+        "node": "N45",
+        "time": 13,
+        "risk": 0
+      },
+      {
+        "node": "N57",
+        "time": 10,
+        "risk": 2
+      },
+      {
+        "node": "N63",
+        "time": 8,
+        "risk": 3
+      },
+      {
+        "node": "S16",
+        "time": 4,
+        "risk": 3
+      }
+    ],
+    "N28": [
+      {
+        "node": "N04",
+        "time": 11,
+        "risk": 3
+      },
+      {
+        "node": "N46",
+        "time": 15,
+        "risk": 2
+      },
+      {
+        "node": "N52",
+        "time": 14,
+        "risk": 2
+      },
+      {
+        "node": "N64",
+        "time": 6,
+        "risk": 0
+      },
+      {
+        "node": "S01",
+        "time": 8,
+        "risk": 3
+      },
+      {
+        "node": "S24",
+        "time": 2,
+        "risk": 4
+      }
+    ],
+    "N29": [
+      {
+        "node": "N23",
+        "time": 5,
+        "risk": 3
+      },
+      {
+        "node": "N35",
+        "time": 6,
+        "risk": 2
+      },
+      {
+        "node": "N59",
+        "time": 9,
+        "risk": 2
+      },
+      {
+        "node": "N65",
+        "time": 10,
+        "risk": 3
+      },
+      {
+        "node": "S06",
+        "time": 5,
+        "risk": 0
+      },
+      {
+        "node": "S19",
+        "time": 4,
+        "risk": 0
+      }
+    ],
+    "N30": [
+      {
+        "node": "N12",
+        "time": 9,
+        "risk": 1
+      },
+      {
+        "node": "N42",
+        "time": 16,
+        "risk": 4
+      },
+      {
+        "node": "N48",
+        "time": 16,
+        "risk": 0
+      },
+      {
+        "node": "N54",
+        "time": 14,
+        "risk": 3
+      },
+      {
+        "node": "N72",
+        "time": 9,
+        "risk": 3
+      },
+      {
+        "node": "S09",
+        "time": 4,
+        "risk": 1
+      }
+    ],
+    "N31": [
+      {
+        "node": "N13",
+        "time": 12,
+        "risk": 1
+      },
+      {
+        "node": "N19",
+        "time": 9,
+        "risk": 1
+      },
+      {
+        "node": "N25",
+        "time": 6,
+        "risk": 1
+      },
+      {
+        "node": "S22",
+        "time": 9,
+        "risk": 4
+      }
+    ],
+    "N32": [
+      {
+        "node": "N02",
+        "time": 3,
+        "risk": 1
+      },
+      {
+        "node": "N14",
+        "time": 18,
+        "risk": 2
+      },
+      {
+        "node": "N68",
+        "time": 19,
+        "risk": 1
+      },
+      {
+        "node": "S08",
+        "time": 15,
+        "risk": 2
+      }
+    ],
+    "N33": [
+      {
+        "node": "N03",
+        "time": 14,
+        "risk": 3
+      },
+      {
+        "node": "N09",
+        "time": 5,
+        "risk": 1
+      },
+      {
+        "node": "N27",
+        "time": 10,
+        "risk": 4
+      },
+      {
+        "node": "N51",
+        "time": 17,
+        "risk": 1
+      },
+      {
+        "node": "N57",
+        "time": 17,
+        "risk": 4
+      },
+      {
+        "node": "N63",
+        "time": 7,
+        "risk": 4
+      },
+      {
+        "node": "N69",
+        "time": 13,
+        "risk": 1
+      },
+      {
+        "node": "S16",
+        "time": 7,
+        "risk": 3
+      }
+    ],
+    "N34": [
+      {
+        "node": "N16",
+        "time": 10,
+        "risk": 1
+      },
+      {
+        "node": "N40",
+        "time": 7,
+        "risk": 3
+      },
+      {
+        "node": "N58",
+        "time": 7,
+        "risk": 0
+      },
+      {
+        "node": "N70",
+        "time": 4,
+        "risk": 2
+      },
+      {
+        "node": "S03",
+        "time": 11,
+        "risk": 4
+      },
+      {
+        "node": "S15",
+        "time": 18,
+        "risk": 2
+      }
+    ],
+    "N35": [
+      {
+        "node": "N23",
+        "time": 9,
+        "risk": 3
+      },
+      {
+        "node": "N29",
+        "time": 6,
+        "risk": 2
+      },
+      {
+        "node": "N47",
+        "time": 14,
+        "risk": 4
+      },
+      {
+        "node": "N59",
+        "time": 7,
+        "risk": 3
+      },
+      {
+        "node": "S19",
+        "time": 9,
+        "risk": 3
+      }
+    ],
+    "N36": [
+      {
+        "node": "B",
+        "time": 17,
+        "risk": 3
+      },
+      {
+        "node": "N06",
+        "time": 4,
+        "risk": 2
+      },
+      {
+        "node": "N42",
+        "time": 11,
+        "risk": 3
+      },
+      {
+        "node": "S05",
+        "time": 8,
+        "risk": 3
+      },
+      {
+        "node": "S12",
+        "time": 2,
+        "risk": 2
+      },
+      {
+        "node": "S21",
+        "time": 4,
+        "risk": 1
+      },
+      {
+        "node": "S23",
+        "time": 8,
+        "risk": 2
+      }
+    ],
+    "N37": [
+      {
+        "node": "N07",
+        "time": 4,
+        "risk": 1
+      },
+      {
+        "node": "N43",
+        "time": 18,
+        "risk": 0
+      },
+      {
+        "node": "N67",
+        "time": 20,
+        "risk": 2
+      },
+      {
+        "node": "N73",
+        "time": 15,
+        "risk": 0
+      },
+      {
+        "node": "S18",
+        "time": 18,
+        "risk": 1
+      }
+    ],
+    "N38": [
+      {
+        "node": "N08",
+        "time": 12,
+        "risk": 0
+      },
+      {
+        "node": "N68",
+        "time": 12,
+        "risk": 3
+      },
+      {
+        "node": "N74",
+        "time": 13,
+        "risk": 0
+      },
+      {
+        "node": "S07",
+        "time": 14,
+        "risk": 4
+      }
+    ],
+    "N39": [
+      {
+        "node": "N15",
+        "time": 6,
+        "risk": 2
+      },
+      {
+        "node": "N27",
+        "time": 9,
+        "risk": 2
+      },
+      {
+        "node": "N45",
+        "time": 14,
+        "risk": 1
+      },
+      {
+        "node": "N63",
+        "time": 6,
+        "risk": 0
+      },
+      {
+        "node": "S16",
+        "time": 7,
+        "risk": 2
+      }
+    ],
+    "N40": [
+      {
+        "node": "N16",
+        "time": 4,
+        "risk": 3
+      },
+      {
+        "node": "N34",
+        "time": 7,
+        "risk": 3
+      },
+      {
+        "node": "N70",
+        "time": 4,
+        "risk": 3
+      },
+      {
+        "node": "S03",
+        "time": 11,
+        "risk": 3
+      }
+    ],
+    "N41": [
+      {
+        "node": "N05",
+        "time": 14,
+        "risk": 0
+      },
+      {
+        "node": "N11",
+        "time": 4,
+        "risk": 3
+      },
+      {
+        "node": "N53",
+        "time": 13,
+        "risk": 0
+      },
+      {
+        "node": "S02",
+        "time": 14,
+        "risk": 1
+      },
+      {
+        "node": "S10",
+        "time": 2,
+        "risk": 2
+      }
+    ],
+    "N42": [
+      {
+        "node": "N06",
+        "time": 15,
+        "risk": 4
+      },
+      {
+        "node": "N30",
+        "time": 16,
+        "risk": 4
+      },
+      {
+        "node": "N36",
+        "time": 11,
+        "risk": 3
+      },
+      {
+        "node": "S05",
+        "time": 5,
+        "risk": 3
+      },
+      {
+        "node": "S09",
+        "time": 13,
+        "risk": 2
+      },
+      {
+        "node": "S21",
+        "time": 15,
+        "risk": 0
+      },
+      {
+        "node": "S23",
+        "time": 3,
+        "risk": 3
+      }
+    ],
+    "N43": [
+      {
+        "node": "A",
+        "time": 8,
+        "risk": 0
+      },
+      {
+        "node": "N37",
+        "time": 18,
+        "risk": 0
+      },
+      {
+        "node": "N61",
+        "time": 10,
+        "risk": 0
+      },
+      {
+        "node": "N67",
+        "time": 13,
+        "risk": 4
+      },
+      {
+        "node": "N73",
+        "time": 6,
+        "risk": 0
+      },
+      {
+        "node": "S14",
+        "time": 9,
+        "risk": 0
+      }
+    ],
+    "N44": [
+      {
+        "node": "N08",
+        "time": 7,
+        "risk": 2
+      },
+      {
+        "node": "N20",
+        "time": 7,
+        "risk": 0
+      },
+      {
+        "node": "N50",
+        "time": 7,
+        "risk": 3
+      },
+      {
+        "node": "N62",
+        "time": 11,
+        "risk": 0
+      },
+      {
+        "node": "N74",
+        "time": 8,
+        "risk": 2
+      }
+    ],
+    "N45": [
+      {
+        "node": "N27",
+        "time": 13,
+        "risk": 0
+      },
+      {
+        "node": "N39",
+        "time": 14,
+        "risk": 1
+      },
+      {
+        "node": "N57",
+        "time": 18,
+        "risk": 1
+      },
+      {
+        "node": "S08",
+        "time": 5,
+        "risk": 2
+      },
+      {
+        "node": "S16",
+        "time": 16,
+        "risk": 2
+      }
+    ],
+    "N46": [
+      {
+        "node": "N28",
+        "time": 15,
+        "risk": 2
+      },
+      {
+        "node": "N52",
+        "time": 12,
+        "risk": 3
+      },
+      {
+        "node": "S10",
+        "time": 5,
+        "risk": 1
+      },
+      {
+        "node": "S24",
+        "time": 14,
+        "risk": 4
+      }
+    ],
+    "N47": [
+      {
+        "node": "N35",
+        "time": 14,
+        "risk": 4
+      },
+      {
+        "node": "N59",
+        "time": 12,
+        "risk": 1
+      },
+      {
+        "node": "S05",
+        "time": 13,
+        "risk": 0
+      },
+      {
+        "node": "S12",
+        "time": 16,
+        "risk": 4
+      }
+    ],
+    "N48": [
+      {
+        "node": "N12",
+        "time": 21,
+        "risk": 4
+      },
+      {
+        "node": "N18",
+        "time": 8,
+        "risk": 3
+      },
+      {
+        "node": "N30",
+        "time": 16,
+        "risk": 0
+      },
+      {
+        "node": "N54",
+        "time": 3,
+        "risk": 3
+      },
+      {
+        "node": "N60",
+        "time": 8,
+        "risk": 1
+      },
+      {
+        "node": "N72",
+        "time": 21,
+        "risk": 2
+      },
+      {
+        "node": "S11",
+        "time": 8,
+        "risk": 0
+      }
+    ],
+    "N49": [
+      {
+        "node": "A",
+        "time": 11,
+        "risk": 3
+      },
+      {
+        "node": "N01",
+        "time": 12,
+        "risk": 3
+      },
+      {
+        "node": "N13",
+        "time": 8,
+        "risk": 3
+      },
+      {
+        "node": "N55",
+        "time": 3,
+        "risk": 3
+      },
+      {
+        "node": "S18",
+        "time": 11,
+        "risk": 1
+      }
+    ],
+    "N50": [
+      {
+        "node": "N20",
+        "time": 2,
+        "risk": 3
+      },
+      {
+        "node": "N26",
+        "time": 4,
+        "risk": 3
+      },
+      {
+        "node": "N44",
+        "time": 7,
+        "risk": 3
+      },
+      {
+        "node": "N56",
+        "time": 4,
+        "risk": 1
+      },
+      {
+        "node": "N62",
+        "time": 11,
+        "risk": 2
+      },
+      {
+        "node": "S17",
+        "time": 7,
+        "risk": 3
+      }
+    ],
+    "N51": [
+      {
+        "node": "N03",
+        "time": 15,
+        "risk": 0
+      },
+      {
+        "node": "N09",
+        "time": 17,
+        "risk": 0
+      },
+      {
+        "node": "N21",
+        "time": 24,
+        "risk": 3
+      },
+      {
+        "node": "N33",
+        "time": 17,
+        "risk": 1
+      },
+      {
+        "node": "N69",
+        "time": 10,
+        "risk": 0
+      }
+    ],
+    "N52": [
+      {
+        "node": "N28",
+        "time": 14,
+        "risk": 2
+      },
+      {
+        "node": "N46",
+        "time": 12,
+        "risk": 3
+      },
+      {
+        "node": "S10",
+        "time": 17,
+        "risk": 1
+      },
+      {
+        "node": "S24",
+        "time": 15,
+        "risk": 1
+      }
+    ],
+    "N53": [
+      {
+        "node": "N05",
+        "time": 8,
+        "risk": 4
+      },
+      {
+        "node": "N11",
+        "time": 13,
+        "risk": 2
+      },
+      {
+        "node": "N41",
+        "time": 13,
+        "risk": 0
+      },
+      {
+        "node": "S02",
+        "time": 3,
+        "risk": 0
+      },
+      {
+        "node": "S19",
+        "time": 13,
+        "risk": 0
+      }
+    ],
+    "N54": [
+      {
+        "node": "N12",
+        "time": 18,
+        "risk": 2
+      },
+      {
+        "node": "N18",
+        "time": 11,
+        "risk": 4
+      },
+      {
+        "node": "N30",
+        "time": 14,
+        "risk": 3
+      },
+      {
+        "node": "N48",
+        "time": 3,
+        "risk": 3
+      },
+      {
+        "node": "N60",
+        "time": 9,
+        "risk": 3
+      },
+      {
+        "node": "N72",
+        "time": 18,
+        "risk": 0
+      },
+      {
+        "node": "S11",
+        "time": 11,
+        "risk": 1
+      }
+    ],
+    "N55": [
+      {
+        "node": "N01",
+        "time": 10,
+        "risk": 0
+      },
+      {
+        "node": "N13",
+        "time": 11,
+        "risk": 2
+      },
+      {
+        "node": "N49",
+        "time": 3,
+        "risk": 3
+      },
+      {
+        "node": "S18",
+        "time": 10,
+        "risk": 0
+      }
+    ],
+    "N56": [
+      {
+        "node": "N20",
+        "time": 3,
+        "risk": 0
+      },
+      {
+        "node": "N26",
+        "time": 2,
+        "risk": 1
+      },
+      {
+        "node": "N50",
+        "time": 4,
+        "risk": 1
+      },
+      {
+        "node": "N62",
+        "time": 12,
+        "risk": 1
+      },
+      {
+        "node": "S17",
+        "time": 5,
+        "risk": 3
+      }
+    ],
+    "N57": [
+      {
+        "node": "N03",
+        "time": 14,
+        "risk": 0
+      },
+      {
+        "node": "N21",
+        "time": 20,
+        "risk": 3
+      },
+      {
+        "node": "N27",
+        "time": 10,
+        "risk": 2
+      },
+      {
+        "node": "N33",
+        "time": 17,
+        "risk": 4
+      },
+      {
+        "node": "N45",
+        "time": 18,
+        "risk": 1
+      },
+      {
+        "node": "S16",
+        "time": 14,
+        "risk": 4
+      }
+    ],
+    "N58": [
+      {
+        "node": "N34",
+        "time": 7,
+        "risk": 0
+      },
+      {
+        "node": "N70",
+        "time": 11,
+        "risk": 4
+      },
+      {
+        "node": "S01",
+        "time": 8,
+        "risk": 1
+      },
+      {
+        "node": "S15",
+        "time": 16,
+        "risk": 2
+      },
+      {
+        "node": "S24",
+        "time": 12,
+        "risk": 0
+      }
+    ],
+    "N59": [
+      {
+        "node": "N23",
+        "time": 8,
+        "risk": 1
+      },
+      {
+        "node": "N29",
+        "time": 9,
+        "risk": 2
+      },
+      {
+        "node": "N35",
+        "time": 7,
+        "risk": 3
+      },
+      {
+        "node": "N47",
+        "time": 12,
+        "risk": 1
+      },
+      {
+        "node": "S05",
+        "time": 8,
+        "risk": 2
+      },
+      {
+        "node": "S23",
+        "time": 11,
+        "risk": 2
+      }
+    ],
+    "N60": [
+      {
+        "node": "N18",
+        "time": 11,
+        "risk": 4
+      },
+      {
+        "node": "N48",
+        "time": 8,
+        "risk": 1
+      },
+      {
+        "node": "N54",
+        "time": 9,
+        "risk": 3
+      },
+      {
+        "node": "S11",
+        "time": 11,
+        "risk": 4
+      }
+    ],
+    "N61": [
+      {
+        "node": "N43",
+        "time": 10,
+        "risk": 0
+      },
+      {
+        "node": "N67",
+        "time": 11,
+        "risk": 4
+      },
+      {
+        "node": "N73",
+        "time": 16,
+        "risk": 4
+      },
+      {
+        "node": "S14",
+        "time": 12,
+        "risk": 1
+      }
+    ],
+    "N62": [
+      {
+        "node": "N20",
+        "time": 13,
+        "risk": 3
+      },
+      {
+        "node": "N44",
+        "time": 11,
+        "risk": 0
+      },
+      {
+        "node": "N50",
+        "time": 11,
+        "risk": 2
+      },
+      {
+        "node": "N56",
+        "time": 12,
+        "risk": 1
+      },
+      {
+        "node": "N74",
+        "time": 14,
+        "risk": 4
+      }
+    ],
+    "N63": [
+      {
+        "node": "N09",
+        "time": 8,
+        "risk": 4
+      },
+      {
+        "node": "N15",
+        "time": 8,
+        "risk": 3
+      },
+      {
+        "node": "N27",
+        "time": 8,
+        "risk": 3
+      },
+      {
+        "node": "N33",
+        "time": 7,
+        "risk": 4
+      },
+      {
+        "node": "N39",
+        "time": 6,
+        "risk": 0
+      },
+      {
+        "node": "S16",
+        "time": 4,
+        "risk": 3
+      }
+    ],
+    "N64": [
+      {
+        "node": "N04",
+        "time": 5,
+        "risk": 1
+      },
+      {
+        "node": "N10",
+        "time": 8,
+        "risk": 2
+      },
+      {
+        "node": "N22",
+        "time": 12,
+        "risk": 2
+      },
+      {
+        "node": "N28",
+        "time": 6,
+        "risk": 0
+      },
+      {
+        "node": "S01",
+        "time": 4,
+        "risk": 4
+      },
+      {
+        "node": "S04",
+        "time": 6,
+        "risk": 2
+      },
+      {
+        "node": "S24",
+        "time": 7,
+        "risk": 0
+      }
+    ],
+    "N65": [
+      {
+        "node": "N05",
+        "time": 13,
+        "risk": 0
+      },
+      {
+        "node": "N29",
+        "time": 10,
+        "risk": 3
+      },
+      {
+        "node": "N71",
+        "time": 5,
+        "risk": 0
+      },
+      {
+        "node": "S06",
+        "time": 6,
+        "risk": 3
+      },
+      {
+        "node": "S19",
+        "time": 8,
+        "risk": 4
+      }
+    ],
+    "N66": [
+      {
+        "node": "B",
+        "time": 9,
+        "risk": 2
+      },
+      {
+        "node": "N24",
+        "time": 12,
+        "risk": 3
+      },
+      {
+        "node": "S11",
+        "time": 16,
+        "risk": 2
+      },
+      {
+        "node": "S20",
+        "time": 10,
+        "risk": 2
+      }
+    ],
+    "N67": [
+      {
+        "node": "N37",
+        "time": 20,
+        "risk": 2
+      },
+      {
+        "node": "N43",
+        "time": 13,
+        "risk": 4
+      },
+      {
+        "node": "N61",
+        "time": 11,
+        "risk": 4
+      },
+      {
+        "node": "N73",
+        "time": 17,
+        "risk": 4
+      }
+    ],
+    "N68": [
+      {
+        "node": "N02",
+        "time": 21,
+        "risk": 4
+      },
+      {
+        "node": "N08",
+        "time": 5,
+        "risk": 2
+      },
+      {
+        "node": "N14",
+        "time": 4,
+        "risk": 0
+      },
+      {
+        "node": "N32",
+        "time": 19,
+        "risk": 1
+      },
+      {
+        "node": "N38",
+        "time": 12,
+        "risk": 3
+      },
+      {
+        "node": "S07",
+        "time": 2,
+        "risk": 3
+      },
+      {
+        "node": "S08",
+        "time": 5,
+        "risk": 3
+      },
+      {
+        "node": "S13",
+        "time": 8,
+        "risk": 4
+      }
+    ],
+    "N69": [
+      {
+        "node": "N03",
+        "time": 5,
+        "risk": 2
+      },
+      {
+        "node": "N21",
+        "time": 16,
+        "risk": 1
+      },
+      {
+        "node": "N33",
+        "time": 13,
+        "risk": 1
+      },
+      {
+        "node": "N51",
+        "time": 10,
+        "risk": 0
+      }
+    ],
+    "N70": [
+      {
+        "node": "N16",
+        "time": 6,
+        "risk": 2
+      },
+      {
+        "node": "N34",
+        "time": 4,
+        "risk": 2
+      },
+      {
+        "node": "N40",
+        "time": 4,
+        "risk": 3
+      },
+      {
+        "node": "N58",
+        "time": 11,
+        "risk": 4
+      },
+      {
+        "node": "S03",
+        "time": 13,
+        "risk": 3
+      },
+      {
+        "node": "S15",
+        "time": 18,
+        "risk": 1
+      }
+    ],
+    "N71": [
+      {
+        "node": "N05",
+        "time": 11,
+        "risk": 1
+      },
+      {
+        "node": "N65",
+        "time": 5,
+        "risk": 0
+      },
+      {
+        "node": "S06",
+        "time": 11,
+        "risk": 3
+      },
+      {
+        "node": "S19",
+        "time": 13,
+        "risk": 0
+      }
+    ],
+    "N72": [
+      {
+        "node": "N12",
+        "time": 2,
+        "risk": 2
+      },
+      {
+        "node": "N30",
+        "time": 9,
+        "risk": 3
+      },
+      {
+        "node": "N48",
+        "time": 21,
+        "risk": 2
+      },
+      {
+        "node": "N54",
+        "time": 18,
+        "risk": 0
+      }
+    ],
+    "N73": [
+      {
+        "node": "A",
+        "time": 7,
+        "risk": 1
+      },
+      {
+        "node": "N07",
+        "time": 16,
+        "risk": 1
+      },
+      {
+        "node": "N37",
+        "time": 15,
+        "risk": 0
+      },
+      {
+        "node": "N43",
+        "time": 6,
+        "risk": 0
+      },
+      {
+        "node": "N61",
+        "time": 16,
+        "risk": 4
+      },
+      {
+        "node": "N67",
+        "time": 17,
+        "risk": 4
+      },
+      {
+        "node": "S14",
+        "time": 12,
+        "risk": 0
+      },
+      {
+        "node": "S18",
+        "time": 11,
+        "risk": 0
+      }
+    ],
+    "N74": [
+      {
+        "node": "N08",
+        "time": 12,
+        "risk": 3
+      },
+      {
+        "node": "N38",
+        "time": 13,
+        "risk": 0
+      },
+      {
+        "node": "N44",
+        "time": 8,
+        "risk": 2
+      },
+      {
+        "node": "N62",
+        "time": 14,
+        "risk": 4
+      }
+    ],
+    "S01": [
+      {
+        "node": "N04",
+        "time": 4,
+        "risk": 3
+      },
+      {
+        "node": "N10",
+        "time": 7,
+        "risk": 1
+      },
+      {
+        "node": "N28",
+        "time": 8,
+        "risk": 3
+      },
+      {
+        "node": "N58",
+        "time": 8,
+        "risk": 1
+      },
+      {
+        "node": "N64",
+        "time": 4,
+        "risk": 4
+      },
+      {
+        "node": "S24",
+        "time": 9,
+        "risk": 1
+      }
+    ],
+    "S02": [
+      {
+        "node": "N05",
+        "time": 11,
+        "risk": 1
+      },
+      {
+        "node": "N11",
+        "time": 13,
+        "risk": 2
+      },
+      {
+        "node": "N23",
+        "time": 12,
+        "risk": 1
+      },
+      {
+        "node": "N41",
+        "time": 14,
+        "risk": 1
+      },
+      {
+        "node": "N53",
+        "time": 3,
+        "risk": 0
+      },
+      {
+        "node": "S19",
+        "time": 12,
+        "risk": 3
+      }
+    ],
+    "S03": [
+      {
+        "node": "N16",
+        "time": 15,
+        "risk": 1
+      },
+      {
+        "node": "N34",
+        "time": 11,
+        "risk": 4
+      },
+      {
+        "node": "N40",
+        "time": 11,
+        "risk": 3
+      },
+      {
+        "node": "N70",
+        "time": 13,
+        "risk": 3
+      },
+      {
+        "node": "S10",
+        "time": 15,
+        "risk": 2
+      },
+      {
+        "node": "S24",
+        "time": 13,
+        "risk": 4
+      }
+    ],
+    "S04": [
+      {
+        "node": "N04",
+        "time": 5,
+        "risk": 3
+      },
+      {
+        "node": "N10",
+        "time": 6,
+        "risk": 4
+      },
+      {
+        "node": "N22",
+        "time": 6,
+        "risk": 0
+      },
+      {
+        "node": "N64",
+        "time": 6,
+        "risk": 2
+      }
+    ],
+    "S05": [
+      {
+        "node": "N17",
+        "time": 15,
+        "risk": 4
+      },
+      {
+        "node": "N36",
+        "time": 8,
+        "risk": 3
+      },
+      {
+        "node": "N42",
+        "time": 5,
+        "risk": 3
+      },
+      {
+        "node": "N47",
+        "time": 13,
+        "risk": 0
+      },
+      {
+        "node": "N59",
+        "time": 8,
+        "risk": 2
+      },
+      {
+        "node": "S09",
+        "time": 16,
+        "risk": 4
+      },
+      {
+        "node": "S12",
+        "time": 10,
+        "risk": 0
+      },
+      {
+        "node": "S23",
+        "time": 3,
+        "risk": 4
+      }
+    ],
+    "S06": [
+      {
+        "node": "N23",
+        "time": 8,
+        "risk": 4
+      },
+      {
+        "node": "N29",
+        "time": 5,
+        "risk": 0
+      },
+      {
+        "node": "N65",
+        "time": 6,
+        "risk": 3
+      },
+      {
+        "node": "N71",
+        "time": 11,
+        "risk": 3
+      },
+      {
+        "node": "S19",
+        "time": 7,
+        "risk": 3
+      }
+    ],
+    "S07": [
+      {
+        "node": "N08",
+        "time": 4,
+        "risk": 2
+      },
+      {
+        "node": "N14",
+        "time": 3,
+        "risk": 2
+      },
+      {
+        "node": "N38",
+        "time": 14,
+        "risk": 4
+      },
+      {
+        "node": "N68",
+        "time": 2,
+        "risk": 3
+      },
+      {
+        "node": "S08",
+        "time": 5,
+        "risk": 1
+      },
+      {
+        "node": "S13",
+        "time": 7,
+        "risk": 1
+      }
+    ],
+    "S08": [
+      {
+        "node": "N02",
+        "time": 17,
+        "risk": 2
+      },
+      {
+        "node": "N14",
+        "time": 3,
+        "risk": 0
+      },
+      {
+        "node": "N32",
+        "time": 15,
+        "risk": 2
+      },
+      {
+        "node": "N45",
+        "time": 5,
+        "risk": 2
+      },
+      {
+        "node": "N68",
+        "time": 5,
+        "risk": 3
+      },
+      {
+        "node": "S07",
+        "time": 5,
+        "risk": 1
+      },
+      {
+        "node": "S13",
+        "time": 7,
+        "risk": 4
+      }
+    ],
+    "S09": [
+      {
+        "node": "N17",
+        "time": 10,
+        "risk": 0
+      },
+      {
+        "node": "N30",
+        "time": 4,
+        "risk": 1
+      },
+      {
+        "node": "N42",
+        "time": 13,
+        "risk": 2
+      },
+      {
+        "node": "S05",
+        "time": 16,
+        "risk": 4
+      },
+      {
+        "node": "S12",
+        "time": 15,
+        "risk": 1
+      },
+      {
+        "node": "S23",
+        "time": 13,
+        "risk": 2
+      }
+    ],
+    "S10": [
+      {
+        "node": "N11",
+        "time": 4,
+        "risk": 2
+      },
+      {
+        "node": "N41",
+        "time": 2,
+        "risk": 2
+      },
+      {
+        "node": "N46",
+        "time": 5,
+        "risk": 1
+      },
+      {
+        "node": "N52",
+        "time": 17,
+        "risk": 1
+      },
+      {
+        "node": "S03",
+        "time": 15,
+        "risk": 2
+      },
+      {
+        "node": "S24",
+        "time": 17,
+        "risk": 1
+      }
+    ],
+    "S11": [
+      {
+        "node": "B",
+        "time": 9,
+        "risk": 2
+      },
+      {
+        "node": "N18",
+        "time": 2,
+        "risk": 3
+      },
+      {
+        "node": "N24",
+        "time": 5,
+        "risk": 2
+      },
+      {
+        "node": "N48",
+        "time": 8,
+        "risk": 0
+      },
+      {
+        "node": "N54",
+        "time": 11,
+        "risk": 1
+      },
+      {
+        "node": "N60",
+        "time": 11,
+        "risk": 4
+      },
+      {
+        "node": "N66",
+        "time": 16,
+        "risk": 2
+      },
+      {
+        "node": "S20",
+        "time": 6,
+        "risk": 1
+      }
+    ],
+    "S12": [
+      {
+        "node": "N06",
+        "time": 4,
+        "risk": 4
+      },
+      {
+        "node": "N17",
+        "time": 8,
+        "risk": 3
+      },
+      {
+        "node": "N36",
+        "time": 2,
+        "risk": 2
+      },
+      {
+        "node": "N47",
+        "time": 16,
+        "risk": 4
+      },
+      {
+        "node": "S05",
+        "time": 10,
+        "risk": 0
+      },
+      {
+        "node": "S09",
+        "time": 15,
+        "risk": 1
+      },
+      {
+        "node": "S21",
+        "time": 3,
+        "risk": 2
+      },
+      {
+        "node": "S23",
+        "time": 9,
+        "risk": 3
+      }
+    ],
+    "S13": [
+      {
+        "node": "N14",
+        "time": 4,
+        "risk": 3
+      },
+      {
+        "node": "N68",
+        "time": 8,
+        "risk": 4
+      },
+      {
+        "node": "S07",
+        "time": 7,
+        "risk": 1
+      },
+      {
+        "node": "S08",
+        "time": 7,
+        "risk": 4
+      }
+    ],
+    "S14": [
+      {
+        "node": "A",
+        "time": 8,
+        "risk": 3
+      },
+      {
+        "node": "N19",
+        "time": 9,
+        "risk": 0
+      },
+      {
+        "node": "N43",
+        "time": 9,
+        "risk": 0
+      },
+      {
+        "node": "N61",
+        "time": 12,
+        "risk": 1
+      },
+      {
+        "node": "N73",
+        "time": 12,
+        "risk": 0
+      },
+      {
+        "node": "S22",
+        "time": 9,
+        "risk": 4
+      }
+    ],
+    "S15": [
+      {
+        "node": "N10",
+        "time": 20,
+        "risk": 4
+      },
+      {
+        "node": "N15",
+        "time": 17,
+        "risk": 3
+      },
+      {
+        "node": "N34",
+        "time": 18,
+        "risk": 2
+      },
+      {
+        "node": "N58",
+        "time": 16,
+        "risk": 2
+      },
+      {
+        "node": "N70",
+        "time": 18,
+        "risk": 1
+      },
+      {
+        "node": "S17",
+        "time": 15,
+        "risk": 2
+      }
+    ],
+    "S16": [
+      {
+        "node": "N09",
+        "time": 10,
+        "risk": 1
+      },
+      {
+        "node": "N15",
+        "time": 12,
+        "risk": 4
+      },
+      {
+        "node": "N27",
+        "time": 4,
+        "risk": 3
+      },
+      {
+        "node": "N33",
+        "time": 7,
+        "risk": 3
+      },
+      {
+        "node": "N39",
+        "time": 7,
+        "risk": 2
+      },
+      {
+        "node": "N45",
+        "time": 16,
+        "risk": 2
+      },
+      {
+        "node": "N57",
+        "time": 14,
+        "risk": 4
+      },
+      {
+        "node": "N63",
+        "time": 4,
+        "risk": 3
+      }
+    ],
+    "S17": [
+      {
+        "node": "N20",
+        "time": 5,
+        "risk": 1
+      },
+      {
+        "node": "N26",
+        "time": 3,
+        "risk": 1
+      },
+      {
+        "node": "N50",
+        "time": 7,
+        "risk": 3
+      },
+      {
+        "node": "N56",
+        "time": 5,
+        "risk": 3
+      },
+      {
+        "node": "S15",
+        "time": 15,
+        "risk": 2
+      }
+    ],
+    "S18": [
+      {
+        "node": "N01",
+        "time": 7,
+        "risk": 0
+      },
+      {
+        "node": "N07",
+        "time": 16,
+        "risk": 1
+      },
+      {
+        "node": "N37",
+        "time": 18,
+        "risk": 1
+      },
+      {
+        "node": "N49",
+        "time": 11,
+        "risk": 1
+      },
+      {
+        "node": "N55",
+        "time": 10,
+        "risk": 0
+      },
+      {
+        "node": "N73",
+        "time": 11,
+        "risk": 0
+      }
+    ],
+    "S19": [
+      {
+        "node": "N23",
+        "time": 2,
+        "risk": 2
+      },
+      {
+        "node": "N29",
+        "time": 4,
+        "risk": 0
+      },
+      {
+        "node": "N35",
+        "time": 9,
+        "risk": 3
+      },
+      {
+        "node": "N53",
+        "time": 13,
+        "risk": 0
+      },
+      {
+        "node": "N65",
+        "time": 8,
+        "risk": 4
+      },
+      {
+        "node": "N71",
+        "time": 13,
+        "risk": 0
+      },
+      {
+        "node": "S02",
+        "time": 12,
+        "risk": 3
+      },
+      {
+        "node": "S06",
+        "time": 7,
+        "risk": 3
+      }
+    ],
+    "S20": [
+      {
+        "node": "B",
+        "time": 7,
+        "risk": 4
+      },
+      {
+        "node": "N18",
+        "time": 6,
+        "risk": 3
+      },
+      {
+        "node": "N24",
+        "time": 3,
+        "risk": 4
+      },
+      {
+        "node": "N66",
+        "time": 10,
+        "risk": 2
+      },
+      {
+        "node": "S11",
+        "time": 6,
+        "risk": 1
+      }
+    ],
+    "S21": [
+      {
+        "node": "B",
+        "time": 13,
+        "risk": 4
+      },
+      {
+        "node": "N06",
+        "time": 3,
+        "risk": 4
+      },
+      {
+        "node": "N36",
+        "time": 4,
+        "risk": 1
+      },
+      {
+        "node": "N42",
+        "time": 15,
+        "risk": 0
+      },
+      {
+        "node": "S12",
+        "time": 3,
+        "risk": 2
+      }
+    ],
+    "S22": [
+      {
+        "node": "N13",
+        "time": 8,
+        "risk": 4
+      },
+      {
+        "node": "N19",
+        "time": 2,
+        "risk": 3
+      },
+      {
+        "node": "N25",
+        "time": 3,
+        "risk": 0
+      },
+      {
+        "node": "N31",
+        "time": 9,
+        "risk": 4
+      },
+      {
+        "node": "S14",
+        "time": 9,
+        "risk": 4
+      }
+    ],
+    "S23": [
+      {
+        "node": "N17",
+        "time": 13,
+        "risk": 2
+      },
+      {
+        "node": "N36",
+        "time": 8,
+        "risk": 2
+      },
+      {
+        "node": "N42",
+        "time": 3,
+        "risk": 3
+      },
+      {
+        "node": "N59",
+        "time": 11,
+        "risk": 2
+      },
+      {
+        "node": "S05",
+        "time": 3,
+        "risk": 4
+      },
+      {
+        "node": "S09",
+        "time": 13,
+        "risk": 2
+      },
+      {
+        "node": "S12",
+        "time": 9,
+        "risk": 3
+      }
+    ],
+    "S24": [
+      {
+        "node": "N04",
+        "time": 12,
+        "risk": 1
+      },
+      {
+        "node": "N28",
+        "time": 2,
+        "risk": 4
+      },
+      {
+        "node": "N46",
+        "time": 14,
+        "risk": 4
+      },
+      {
+        "node": "N52",
+        "time": 15,
+        "risk": 1
+      },
+      {
+        "node": "N58",
+        "time": 12,
+        "risk": 0
+      },
+      {
+        "node": "N64",
+        "time": 7,
+        "risk": 0
+      },
+      {
+        "node": "S01",
+        "time": 9,
+        "risk": 1
+      },
+      {
+        "node": "S03",
+        "time": 13,
+        "risk": 4
+      },
+      {
+        "node": "S10",
+        "time": 17,
+        "risk": 1
+      }
+    ]
+  }
+}
