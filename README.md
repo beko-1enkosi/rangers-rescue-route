@@ -232,7 +232,9 @@ asks for two uploads per level:
 | Date | Level | Result | Notes |
 |------|-------|--------|-------|
 | 2026-07-25 | 1 | 100/100 | Completed, first submission |
-|      |       |        |       |
+| 2026-07-25 | 2 | 100/100 | Completed, first submission |
+
+**Total: 200/200** 🎉
 
 ## License
 
