@@ -2,6 +2,9 @@ import heapq
 import json
 import math
 import random
+
+from ortools.constraint_solver import routing_enums_pb2
+from ortools.constraint_solver import pywrapcp
 from pathlib import Path
 
 from graph_utils import to_effective_weight_graph
@@ -193,9 +196,11 @@ def main():
         weighted_graph, nodes_of_interest
     )
 
-    best_sequence, estimated_cost = find_best_station_order(
-        start, end, stops, distances
-    )
+    # Replace this line:
+    # best_sequence, estimated_cost = find_best_station_order(start, end, stops, distances)
+
+    # With this line:
+    best_sequence, estimated_cost = find_best_station_order_ortools(start, end, stops, distances)
     route = stitch_route(best_sequence, paths)
     validated_cost = validate_route(route, raw_graph, stops, start, end)
 
@@ -212,6 +217,73 @@ def main():
         json.dump({"route": route}, file, indent=2)
 
     print(f"Wrote {OUTPUT_PATH}")
+
+def find_best_station_order_ortools(start, end, stops, distances):
+    """Solve the station ordering using Google OR-Tools for an optimal route."""
+    
+    # 1. Map nodes to integer indices
+    # Index 0 = start, Index 1 = end, Indices 2...N = stops
+    nodes = [start, end] + list(stops)
+    node_to_idx = {node: i for i, node in enumerate(nodes)}
+    
+    # 2. Build the distance matrix
+    # OR-Tools requires integer weights. Since time and risk are integers, this works perfectly.
+    matrix = []
+    for u in nodes:
+        row = []
+        for v in nodes:
+            # Prevent OR-Tools from routing backwards to the start or leaving the end node prematurely
+            if u == end or v == start:
+                row.append(9999999) 
+            else:
+                row.append(int(distances[u][v]))
+        matrix.append(row)
+
+    # 3. Initialize the Routing Index Manager and Model
+    num_vehicles = 1
+    starts = [node_to_idx[start]]
+    ends = [node_to_idx[end]]
+    
+    manager = pywrapcp.RoutingIndexManager(len(nodes), num_vehicles, starts, ends)
+    routing = pywrapcp.RoutingModel(manager)
+    
+    # 4. Create and register the distance callback
+    def distance_callback(from_index, to_index):
+        from_node = manager.IndexToNode(from_index)
+        to_node = manager.IndexToNode(to_index)
+        return matrix[from_node][to_node]
+        
+    transit_callback_index = routing.RegisterTransitCallback(distance_callback)
+    routing.SetArcCostEvaluatorOfAllVehicles(transit_callback_index)
+    
+    # 5. Set search parameters for Guided Local Search
+    search_parameters = pywrapcp.DefaultRoutingSearchParameters()
+    search_parameters.first_solution_strategy = (
+        routing_enums_pb2.FirstSolutionStrategy.PATH_CHEAPEST_ARC)
+    search_parameters.local_search_metaheuristic = (
+        routing_enums_pb2.LocalSearchMetaheuristic.GUIDED_LOCAL_SEARCH)
+    
+    # A 10-second limit is more than enough time for a 26-node graph
+    search_parameters.time_limit.seconds = 10  
+    
+    # 6. Solve the model
+    solution = routing.SolveWithParameters(search_parameters)
+    
+    if not solution:
+        raise ValueError("OR-Tools could not find a solution.")
+        
+    # 7. Extract the route sequence
+    route_indices = []
+    index = routing.Start(0)
+    while not routing.IsEnd(index):
+        route_indices.append(manager.IndexToNode(index))
+        index = solution.Value(routing.NextVar(index))
+    route_indices.append(manager.IndexToNode(index))
+    
+    best_sequence = [nodes[i] for i in route_indices]
+    best_cost = solution.ObjectiveValue()
+    
+    return best_sequence, best_cost
 
 
 if __name__ == "__main__":
